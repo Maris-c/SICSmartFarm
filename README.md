@@ -8,9 +8,9 @@ You can learn more about the program here: [Samsung Innovation Campus (SIC)](htt
 
 This is a capstone project to apply the knowledge and skills gained throughout the SIC course. 
 
-# 🌱 IoT Smart Farm System with Raspberry Pi 5
+# 🌱 IoT Smart Farm System with ESP8266
 
-This project aims to **research, design, and build** a **smart agricultural system** using a Raspberry Pi 5 and commonly available sensors. The system uses **MariaDB** to store sensor data and supports **monitoring and controlling** via a web dashboard.
+This project aims to **research, design, and build** a **smart agricultural system** using a ESP8266 and commonly available sensors. The system uses **MySQL** to store sensor data and supports **monitoring and controlling** via a web dashboard.
 
 ---
 
@@ -20,35 +20,19 @@ This project aims to **research, design, and build** a **smart agricultural syst
 - 🌱 **Monitor soil moisture** using a soil sensor
 - 💡 **Control lighting**, 🌬️ **ventilation fans**, and 💧 **pumps**
 - 🌐 **Web-based dashboard** to view live data and control devices remotely
-- 🗄️ **Data stored in MariaDB** for persistence and analytics
-
----
-
-## 🧠 Architecture: MVC Pattern
-
-This project follows the **Model-View-Controller** (MVC) pattern for better separation of concerns.
-
-- **Model**: Handles data logic and database interaction (MariaDB)
-- **View**: Front-end web interface (HTML/CSS/JS)
-- **Controller**: Interfaces with sensors/devices and responds to web actions
-
----
-
-## 🗂️ Folder Structure
-
-See the main folder structure above. Each part of the system is modular and follows best practices for embedded Python and web integration.
+- 🗄️ **Data stored in MySQL** for persistence and analytics
 
 ---
 
 ## 🧰 Technologies Used
 
-- **Raspberry Pi 5**
-- **Python 3**
-- **Flask** (or FastAPI)
-- **MariaDB** for database
+- **ESP8266**
+- **C++**
+- **Flask** 
+- **MySQL** for database
 - **HTML/CSS/JavaScript** for front-end
 - **DHT11** for temperature and humidity
 - **Soil Moisture Sensor**
 - **Relay Modules** for controlling devices
-
+- **5V Submersible Water Pump** for pumping water
 ---
