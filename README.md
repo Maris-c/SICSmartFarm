@@ -38,3 +38,6 @@ This project aims to **research, design, and build** a **smart agricultural syst
 ---
 ![z6908003358204_04e08ae1096def17c665ae915fa79ac1](https://github.com/user-attachments/assets/c73f5aa9-64ae-4f46-ab77-e64fa8274498)
 
+## Video Demo
+https://youtube.com/shorts/ydTiHfX7Pnw?si=5ehzKgO4DU7p40y7
+
